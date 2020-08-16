@@ -13,7 +13,7 @@ class mail:
         self.server.ehlo()
         
 
-        self.server.login(self.gonderen, "2FPassword")
+        self.server.login(self.gonderen, "AppPassword")
 
         subject = "Covid Testi"
         body = "Sonuçları kontrol et"
